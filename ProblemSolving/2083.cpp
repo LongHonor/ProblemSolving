@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int bj2083() {
+int boj2083() {
 
 	string name;
 	int age, weight;

@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int bj1264() {
+int boj1264() {
 	int cnt;
 
 	string str;
