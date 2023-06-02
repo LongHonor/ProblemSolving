@@ -127,8 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1085.cpp" />
     <ClCompile Include="1264.cpp" />
+    <ClCompile Include="1267.cpp" />
+    <ClCompile Include="1284.cpp" />
     <ClCompile Include="2083.cpp" />
+    <ClCompile Include="2439.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

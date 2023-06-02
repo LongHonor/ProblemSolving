@@ -3,17 +3,25 @@
 using namespace std;
 
 int main() {
-	
-	string name;
-	int age, weight;
+	int t;
+	long a, b;
+	long result;
 
-	while (true) {
-		cin >> name >> age >> weight;
-		
-		if (name == "#") break;
+	cin >> t;
 
-		if (age > 17 || weight >= 80) cout << name << " Senior" << endl;
-		else cout << name << " Junior" << endl;
+	while (t--) {
+		cin >> a >> b;
+		result = a;
+		b = b % 4 + 4;
+
+		for (int i = 2; i <= b; i++) {
+			result = result * a % 10;
+		}
+
+		if (result == 0) result = 10;
+
+		cout << result << endl;
 	}
+	
 	return 0;
 }
